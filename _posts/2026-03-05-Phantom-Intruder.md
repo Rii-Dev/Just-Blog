@@ -7,7 +7,7 @@ tags: [CTF,Forensic,Bootcamp,logs]
 toc: true
 comments: false
 description: Phantom Intruder By PicoCTF
-media_subpath: /assets/img/phantomintruder
+media_subpath: /content/img/phantomintruder
 ---
 <!-- Masukkan Image Atau Vid Ke /content
 Untuk memanggil bisa ![Coba Image](/content/img/berdua.jpeg) _foto Beduaa_ 

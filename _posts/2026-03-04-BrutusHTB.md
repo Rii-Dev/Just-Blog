@@ -7,7 +7,6 @@ tags: [CTF,Forensic,Bootcamp,logs]
 toc: true
 comments: false
 description: Brutus By HackTheBox
-media_subpath: /content/img/BrutusHTB/
 ---
 <!-- Masukkan Image Atau Vid Ke /content
 Untuk memanggil bisa ![Coba Image](/content/img/berdua.jpeg) _foto Beduaa_ 

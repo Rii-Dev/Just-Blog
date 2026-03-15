@@ -117,5 +117,12 @@ Flag Bagian 3 : t00l_81ba3fe9}
 ## Kesimpulan
 
 Dan yap Bagian bagian Flag sudah di dapatkan dan apabila di satukan menjadi 
-
+```
 Flag : picoCTF{Ev3nt_vi3wv3r_1s_a_pr3tty_us3ful_t00l_81ba3fe9}
+```
+Kasus ini memberikan beberapa pembelajaran penting tentang kapabilitas Windows Event Viewer sebagai alat investigasi forensik
+
+1. Pentingnya Memahami Event ID yakni Kemampuan untuk mencocokkan kejadian (instalasi, perubahan registry, shutdown) dengan Event ID yang tepat (1033, 4657, 1074) adalah kunci untuk memfilter ribuan log dan menemukan bukti yang relevan dengan cepat
+
+2. Investigasi ini menunjukkan bagaimana log yang berbeda dapat dihubungkan untuk merekonstruksi kronologi serangan secara utuh, mulai dari vektor masuk (instalasi), aksi (eksekusi dan perubahan registry), hingga dampak (shutdown paksa).
+
